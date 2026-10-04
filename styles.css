@@ -1,4 +1,4 @@
-/* UAP Montana — uapmontana.com. Tokens: UAP Montana/Idaho design system. */
+/* UAP Montana */
 :root,
 [data-theme="dark"],
 .theme-dark {
@@ -105,8 +105,6 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
 .wrap{width:min(var(--measure),calc(100% - (var(--gutter) * 2)));margin-inline:auto}
 .skip{position:absolute;left:-9999px}
 .skip:focus{left:var(--space-4);top:var(--space-4);z-index:100;background:var(--color-bg-elevated);color:var(--color-ink);padding:var(--space-2) var(--space-3)}
-.sat-banner{background:var(--color-accent-wash);border-bottom:1px solid var(--color-accent-dim);padding:var(--space-3) 0;font-family:var(--font-sans);font-size:var(--text-sm);color:var(--color-muted)}
-.sat-banner strong{color:var(--color-ink);font-weight:600}
 .site-header{background:var(--color-bg-deep);border-bottom:var(--border);padding:var(--space-4) 0 var(--space-3)}
 .site-header .wrap{display:flex;align-items:baseline;justify-content:space-between;gap:var(--space-4);flex-wrap:wrap}
 .brand{font-size:var(--text-md);letter-spacing:var(--tracking-brand);text-transform:uppercase;color:var(--color-ink)}
@@ -123,7 +121,6 @@ main{flex:1;padding:var(--space-8) 0 var(--space-12)}
 .badge--dark{color:var(--color-muted);border-color:var(--color-status-dark);margin:0 0 var(--space-2)}
 h1{font-size:var(--text-2xl);font-weight:600;line-height:var(--leading-tight);margin:0 0 var(--space-3)}
 h2{font-size:var(--text-xl);font-weight:600;color:var(--color-accent);margin:var(--space-8) 0 var(--space-3)}
-.sat-line{font-family:var(--font-sans);font-size:var(--text-sm);color:var(--color-muted);margin:0 0 var(--space-6);letter-spacing:.02em}
 .lede{font-size:var(--text-lg);color:var(--color-muted);margin:0 0 var(--space-6)}
 .card{background:var(--color-bg-elevated);border:var(--border);padding:var(--space-5);margin:var(--space-4) 0}
 .card p{margin:var(--space-2) 0 0}
@@ -134,9 +131,7 @@ h2{font-size:var(--text-xl);font-weight:600;color:var(--color-accent);margin:var
 .cta strong{color:var(--color-accent)}
 .ghost,.note{color:var(--color-muted);font-size:var(--text-sm);font-family:var(--font-sans)}
 .hard{border-left:3px solid var(--color-danger);padding-left:var(--space-4);margin:var(--space-6) 0}
-.grid{display:grid;gap:var(--space-4);grid-template-columns:1fr 1fr}
-.grid .card{margin:0}
-@media (max-width:560px){.grid{grid-template-columns:1fr}h1{font-size:1.55rem}.lede{font-size:1.05rem}}
+@media (max-width:560px){h1{font-size:1.55rem}.lede{font-size:1.05rem}}
 label{display:block;font-family:var(--font-sans);font-size:var(--text-sm);margin:var(--space-3) 0 var(--space-1)}
 input,textarea{width:100%;background:#0a0e13;color:var(--color-ink);border:var(--border);padding:.55rem .65rem;font:inherit;opacity:.6}
 textarea{min-height:8rem}
